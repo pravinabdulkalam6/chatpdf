@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.infoBtn{
+    .p-button{
+            width: 16px;
+            height: 16px;
+            padding: 0;
+            border-radius: 50%;
+            margin-left:3px;
+            margin-bottom: 2px;
+            align-items: center;
+            .pi-info{
+                font-size: 8px;
+            }
+    }
+}
+.infotxt
+{
+    .p-dialog{
+       
+        
+        background-color: #ffffff;
+     
+        border: 0;
+        border-radius:18px;
+        // pointer-events: auto;
+        padding:0;
+    }
+    .p-dialog-header{
+  display: none;  
+ margin: 0;
+ padding: 0;
+ border-radius: 8px;
+ font-size:5px !important;
+ text-decoration: none;
+ 
+}
+}
+
+.filemg{
+    .p-fileupload{
+        border: none !important;
+        .p-button{
+            width: 975px !important;
+            height: 182px !important;
+            background-color:rgba(0, 0, 0, 0.02);
+            padding:16px 0 !important;
+            border: none !important;
+           
+                  
+            cursor: pointer;
+            text-decoration: none !important;
+           
+            
+        }
+    }
+}
+   
+   
