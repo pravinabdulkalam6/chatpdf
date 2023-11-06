@@ -2,6 +2,7 @@
 {
     display: flex;
 }
+
 .head
 {
     display: flex;
@@ -17,7 +18,6 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    font-size: medium;
     font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
     }
 }
@@ -30,7 +30,11 @@
     word-break: break-word;
     p
     {
-        font-size: small;
+        text-align: center;
+        display: block;
+        margin-bottom: 32px;
+        font-size: 18px;
+        margin-top: 5px;
         font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
     }
 }
@@ -39,8 +43,8 @@
     display: flex;
     justify-content: center;
     .card1 {
-        width: 233px;
-        height: 123px;
+        width: 323px;
+        height: 169px;
         background-color: antiquewhite;
         border-radius: 8px;
         margin-right: 5px;
@@ -61,32 +65,32 @@
 
         
     }
-             b
+             h2
             {
-                font-weight: bold;
                 font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
                 margin-left: 5px;
-                font-size: 13px;
-            }
+                font-size: 1.5em;
+                font-weight: bold;            }
             p
             {
                 font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
                 font-size: 10px;
-                margin-top: 13px;
+                font-size: 14px;
+
             }
 }
 
 .fordiv
 {
-    margin:16px;
     background-color:antiquewhite;
-    height: 83px;
-    width: 190px;
+    height: 145px;
+    width: 321px;
+    padding: 24px;
 }
 
 .svg
 {
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
     margin-top: 0px;
 }
