@@ -13,13 +13,15 @@ import { AppComponent } from './app.component';
 import { CheckboxModule } from 'primeng/checkbox';
 import { FormsModule } from '@angular/forms';
 import { CardComponent } from './card/card.component';
+import { ChatpdfComponent } from './chatpdf/chatpdf.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-   
-    CardComponent
+    CardComponent,
+    ChatpdfComponent
+  
 
   ],
   imports: [
